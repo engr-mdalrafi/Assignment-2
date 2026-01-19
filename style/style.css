@@ -16,6 +16,10 @@ body {
     --bg-color: #1A0B2E;
 }
 
+.bg-color{
+    background: var(--bg-color);
+}
+
 .container {
     max-width: 1200px;
     width: 75%;
@@ -59,6 +63,13 @@ body {
 
 .secondary-btn:hover{
     transform: scale(1.05);
+}
+
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
 }
 
 /* ================== share style ================== */
@@ -160,14 +171,17 @@ header {
     font-weight: 400;
 }
 /* ======================================= 
-            banner style end
+        banner style end
      ================================= */
 /* ======================================== 
-            Navber style start 
+        About the Potcast start 
     ================================== */
-
+.potcast-detail{
+    text-align: center;
+    color: var(--primary-color);
+}
 /* ======================================= 
-        Navber style end
+        About the Potcast end
      ================================= */
 /* ======================================== 
             Navber style start 
