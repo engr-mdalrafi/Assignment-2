@@ -16,6 +16,7 @@ body {
     --bg-color: #1A0B2E;
     --choose-card-color: rgba(53, 17, 101, 0.4);
     --featured-card-bg-color: #250D44;
+    --meet-social-icon-broder-color: #533C72;
 }
 
 .bg-color {
@@ -324,7 +325,58 @@ header {
         featured style end
      ================================= */
 /* ======================================== 
-            Navber style start 
+        Meet the host style start 
+    ================================== */
+
+    .meet-the-host{
+        padding-bottom: 120px;
+    }
+
+    .meet-contain{
+        margin-top: 40px;
+        padding: 40px;
+        border-radius: 40px;
+        gap: 24px;
+        align-items: center;
+        color: var(--primary-color);
+        background: var(--choose-card-color); 
+    }
+
+    .meet-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .meet-detail{
+        padding: 16px 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .meet-social{
+        display: inline-block;
+        gap: 8px;
+        cursor: pointer;
+    }
+
+    .meet-social-icon{
+        padding: 12px;
+        border: 1px solid var(--meet-social-icon-broder-color);
+        border-radius: 50%;
+    }
+
+
+
+
+
+
+
+/* ======================================= 
+        Meet the host style end
+     ================================= */
+/* ======================================== 
+        Navber style start 
     ================================== */
 
 /* ======================================= 
