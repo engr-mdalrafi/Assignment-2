@@ -367,18 +367,42 @@ header {
     }
 
 
-
-
-
-
-
 /* ======================================= 
         Meet the host style end
      ================================= */
 /* ======================================== 
-        Navber style start 
+        footer style start 
     ================================== */
+    footer{
+        padding: 120px 0;
+        background-image: url(../images/footer-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
+    .footer-contain{
+        color: var(--primary-color);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img{
+        width: 100%;
+    }
+
+    .footer-icon{
+        padding: 32px 0;
+        gap: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        cursor: pointer;
+    }
+
+    .footer-social-icon{
+        list-style: none;
+        font-size: 1rem;
+    }
 /* ======================================= 
-        Navber style end
+        footer style end
      ================================= */
