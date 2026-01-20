@@ -15,6 +15,7 @@ body {
     --secondary-color: #00FF88;
     --bg-color: #1A0B2E;
     --choose-card-color: rgba(53, 17, 101, 0.4);
+    --featured-card-bg-color: #250D44;
 }
 
 .bg-color {
@@ -259,8 +260,6 @@ header {
         border-radius: 40px;
     }
 
-    .choose-card-icon img{
-    }
     .choose-card-title{
         padding: 16px 0;
         font-size: 1.5rem;
@@ -281,6 +280,46 @@ header {
     .featured{
         padding: 120px 0;
     }
+
+    .featured-cards{
+        padding-top: 40px;
+        gap: 30px;
+        
+
+    }
+
+    
+    .featured-card{
+        max-width: 380px;
+        border-radius: 30px;
+        overflow: hidden;
+        color: var(--primary-color);
+        background: var(--featured-card-bg-color);
+    }
+    
+    
+    .featured-card-text-contain{
+        padding: 24px;
+    }
+    
+    .featured-card-title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        
+    }
+    
+    .featured-card-detail{
+        padding: 12px 0;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .featured-video-time{
+        font-size: 1rem;
+        color: var(--secondary-color);
+    }
+
+
 /* ======================================= 
         featured style end
      ================================= */
