@@ -14,6 +14,7 @@ body {
     --primary-color: #ffffff;
     --secondary-color: #00FF88;
     --bg-color: #1A0B2E;
+    --choose-card-color: rgba(53, 17, 101, 0.4);
 }
 
 .bg-color {
@@ -127,7 +128,6 @@ header {
     background-image: url(../images/hero-circle.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: ;
     justify-content: center;
     align-items: center;
 }
@@ -218,24 +218,71 @@ header {
     font-weight: normal;
     color: var(--primary-color);
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* ======================================= 
         About the Potcast end
      ================================= */
 /* ======================================== 
-            Navber style start 
+        Why Choose TechWave style start 
     ================================== */
+    .choose{
+        background: #230E3D;
+        padding: 120px 0;
+    }
+
+    .choose-title{
+        padding-bottom: 40px;
+    }
+
+    .choose-cards{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .choose-column{
+        grid-column: span 2;
+    }
+
+    .choose-row{
+        grid-row: span 2;
+    }
+
+    .choose-card{
+        padding: 40px;
+        flex-direction: column;
+        color: var(--primary-color);
+        background: var(--choose-card-color);
+        border-radius: 40px;
+    }
+
+    .choose-card-icon img{
+    }
+    .choose-card-title{
+        padding: 16px 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .choose-card-detail{
+        font-size: 1rem;
+        font-weight: 400;
+    }
 
 /* ======================================= 
-        Navber style end
+        Why Choose TechWave style end
      ================================= */
 /* ======================================== 
-            Navber style start 
+        featured style start 
     ================================== */
-
+    .featured{
+        padding: 120px 0;
+    }
 /* ======================================= 
-        Navber style end
+        featured style end
      ================================= */
 /* ======================================== 
             Navber style start 
