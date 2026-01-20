@@ -75,7 +75,7 @@ body {
     text-align: center;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -187,7 +187,8 @@ header {
     padding-top: 50px;
 }
 
-.potcast-detail, .join {
+.potcast-detail,
+.join {
     max-width: 804px;
     margin: 0 auto;
     padding-top: 16px;
@@ -198,12 +199,12 @@ header {
     line-height: 25px;
 }
 
-.join{
+.join {
     padding-top: 50px;
-    padding-bottom: 80px;    
+    padding-bottom: 80px;
 }
 
-.podcast-cards{
+.podcast-cards {
     padding: 80px 0 120px;
     border-top: 1px solid var(--primary-color);
     grid-template-columns: repeat(4, 1fr);
@@ -211,7 +212,7 @@ header {
 }
 
 
-.podcast-card h3{
+.podcast-card h3 {
     padding-bottom: 16px;
     font-size: 3rem;
     font-weight: 900;
@@ -219,7 +220,7 @@ header {
     text-align: center;
 }
 
-.podcast-card p{
+.podcast-card p {
     font-size: 1rem;
     font-weight: normal;
     color: var(--primary-color);
@@ -233,48 +234,48 @@ header {
 /* ======================================== 
         Why Choose TechWave style start 
     ================================== */
-    .choose{
-        background: #230E3D;
-        padding: 120px 0;
-    }
+.choose {
+    background: #230E3D;
+    padding: 120px 0;
+}
 
-    .choose-title{
-        padding-bottom: 40px;
-    }
+.choose-title {
+    padding-bottom: 40px;
+}
 
-    .choose-cards{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        justify-content: center;
-        gap: 30px;
-    }
-    
-    .choose-column{
-        grid-column: span 2;
-    }
+.choose-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
 
-    .choose-row{
-        grid-row: span 2;
-    }
+.choose-column {
+    grid-column: span 2;
+}
 
-    .choose-card{
-        padding: 40px;
-        flex-direction: column;
-        color: var(--primary-color);
-        background: var(--choose-card-color);
-        border-radius: 40px;
-    }
+.choose-row {
+    grid-row: span 2;
+}
 
-    .choose-card-title{
-        padding: 16px 0;
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
+.choose-card {
+    padding: 40px;
+    flex-direction: column;
+    color: var(--primary-color);
+    background: var(--choose-card-color);
+    border-radius: 40px;
+}
 
-    .choose-card-detail{
-        font-size: 1rem;
-        font-weight: 400;
-    }
+.choose-card-title {
+    padding: 16px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.choose-card-detail {
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* ======================================= 
         Why Choose TechWave style end
@@ -282,47 +283,47 @@ header {
 /* ======================================== 
         featured style start 
     ================================== */
-    .featured{
-        padding: 120px 0;
-    }
+.featured {
+    padding: 120px 0;
+}
 
-    .featured-cards{
-        padding-top: 40px;
-        gap: 30px;
-        
+.featured-cards {
+    padding-top: 40px;
+    gap: 30px;
 
-    }
 
-    
-    .featured-card{
-        max-width: 380px;
-        border-radius: 30px;
-        overflow: hidden;
-        color: var(--primary-color);
-        background: var(--featured-card-bg-color);
-    }
-    
-    
-    .featured-card-text-contain{
-        padding: 24px;
-    }
-    
-    .featured-card-title{
-        font-size: 1.5rem;
-        font-weight: 700;
-        
-    }
-    
-    .featured-card-detail{
-        padding: 12px 0;
-        font-size: 1rem;
-        font-weight: normal;
-    }
+}
 
-    .featured-video-time{
-        font-size: 1rem;
-        color: var(--secondary-color);
-    }
+
+.featured-card {
+    max-width: 380px;
+    border-radius: 30px;
+    overflow: hidden;
+    color: var(--primary-color);
+    background: var(--featured-card-bg-color);
+}
+
+
+.featured-card-text-contain {
+    padding: 24px;
+}
+
+.featured-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.featured-card-detail {
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.featured-video-time {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
 
 
 /* ======================================= 
@@ -332,43 +333,44 @@ header {
         Meet the host style start 
     ================================== */
 
-    .meet-the-host{
-        padding-bottom: 120px;
-    }
+.meet-the-host {
+    
+    padding-bottom: 120px;
+}
 
-    .meet-contain{
-        margin-top: 40px;
-        padding: 40px;
-        border-radius: 40px;
-        gap: 24px;
-        align-items: center;
-        color: var(--primary-color);
-        background: var(--choose-card-color); 
-    }
+.meet-contain {
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 24px;
+    align-items: center;
+    color: var(--primary-color);
+    background: var(--choose-card-color);
+}
 
-    .meet-title{
-        font-size: 2rem;
-        font-weight: 700;
-    }
+.meet-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
 
-    .meet-detail{
-        padding: 16px 0;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-    }
+.meet-detail {
+    padding: 16px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
 
-    .meet-social{
-        display: inline-block;
-        gap: 8px;
-        cursor: pointer;
-    }
+.meet-social {
+    display: inline-block;
+    gap: 8px;
+    cursor: pointer;
+}
 
-    .meet-social-icon{
-        padding: 12px;
-        border: 1px solid var(--meet-social-icon-broder-color);
-        border-radius: 50%;
-    }
+.meet-social-icon {
+    padding: 12px;
+    border: 1px solid var(--meet-social-icon-broder-color);
+    border-radius: 50%;
+}
 
 
 /* ======================================= 
@@ -377,69 +379,171 @@ header {
 /* ======================================== 
         footer style start 
     ================================== */
-    footer{
-        padding: 120px 0;
-        background-image: url(../images/footer-bg.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+footer {
+    padding: 120px 0;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-    .footer-contain{
-        color: var(--primary-color);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.footer-contain {
+    color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .footer-logo img{
-        width: 100%;
-    }
+.footer-logo img {
+    width: 100%;
+}
 
-    .footer-icon{
-        padding: 32px 0;
-        gap: 40px;
-        grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
-        cursor: pointer;
-    }
+.footer-icon {
+    padding: 32px 0;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    cursor: pointer;
+}
 
-    .footer-social-icon{
-        list-style: none;
-        font-size: 1rem;
-    }
+.footer-social-icon {
+    list-style: none;
+    font-size: 1rem;
+}
+
 /* ======================================= 
         footer style end
      ================================= */
 
-    /* ============================================================
+/* ============================================================
                 Responsive web for small devices (576px)
     =============================================================*/
 
-    @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
-        .container{
-            max-width: 400px;
-        }
+    .container {
+        max-width: 400px;
+        width: 90%;
+    }
 
-        .section-title{
-            font-size: 2rem;
-        }
+    .section-title {
+        font-size: 2rem;
+    }
 
-        /* ====================share style======================= */
-        .menu, .menu-btn{
-            display: none;
-        }
+    .featured-cards {
+    flex-direction: column;
+}
 
-        .menu-ber{
-            display: block;
-        }
+    /* ====================share style ======================= */
+
+    /* ==================== Navber style ===================== */
+    .menu,
+    .menu-btn {
+        display: none;
+    }
+
+    .menu-ber {
+        display: block;
     }
 
 
-    /* ========================About the potcast======================= */
+    /* ================ banner style =================== */
+
+    .hero-bg{
+        padding: 40px 0;
+    }
+
+/* ========================About the potcast======================= */
+
+    .potcast-section{
+        padding-top: 20px;
+    }
+
+    .join {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    }
+
+    .podcast-card h3 {
+    font-size: 2.5rem;
+    }
+
+    .podcast-cards {
+    padding: 40px 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    }
+
+/* ===================== choose TechWave============== */
+
+    .choose {
+    padding: 40px 0;
+    }
+
+    .choose-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0;
+    row-gap: 20px;
+    }
+
+    .choose-card-title {
+    font-size: 1.3rem;
+    }
+
+
+/* ===================== Featured Episodes ============== */
+
+    .featured {
+    padding: 40px 0;
+    }
+
+    .featured-cards {
+    align-items: center;
+    }
+
+
+    .featured-card-title {
+    font-size: 1.2rem;
+    }
+
+    .featured-video iframe{
+        width: 320px;
+        height: 265px;
+    }
+
+    .featured-card {
+        max-width: 320px;
+    }
+
+/* ===================== Meet the host ============== */
+
+    .meet-the-host {
+        padding-bottom: 40px;
+    }
+
+    .meet-contain {
+        flex-direction: column;
+        
+    }
+
+    .meet-text-contain{
+        text-align: center;
+    }
+/* ===================== Meet the host ============== */
+
+    footer{
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .footer-icon {
+    grid-template-columns: repeat(2, 1fr);
+}
 
 
 
 
+
+}
 
 
