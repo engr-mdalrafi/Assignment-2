@@ -75,6 +75,10 @@ body {
     text-align: center;
 }
 
+.hidden{
+    display: none;
+}
+
 /* ================== share style ================== */
 
 /* ======================================== 
@@ -406,3 +410,36 @@ header {
 /* ======================================= 
         footer style end
      ================================= */
+
+    /* ============================================================
+                Responsive web for small devices (576px)
+    =============================================================*/
+
+    @media screen and (max-width: 576px) {
+
+        .container{
+            max-width: 400px;
+        }
+
+        .section-title{
+            font-size: 2rem;
+        }
+
+        /* ====================share style======================= */
+        .menu, .menu-btn{
+            display: none;
+        }
+
+        .menu-ber{
+            display: block;
+        }
+    }
+
+
+    /* ========================About the potcast======================= */
+
+
+
+
+
+
