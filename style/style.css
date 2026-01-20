@@ -16,7 +16,7 @@ body {
     --bg-color: #1A0B2E;
 }
 
-.bg-color{
+.bg-color {
     background: var(--bg-color);
 }
 
@@ -49,7 +49,7 @@ body {
     transform: scale(1.05);
 }
 
-.secondary-btn{
+.secondary-btn {
     padding: 12px 20px;
     font-size: 1rem;
     font-weight: 600;
@@ -61,11 +61,11 @@ body {
     transition: 0.3s;
 }
 
-.secondary-btn:hover{
+.secondary-btn:hover {
     transform: scale(1.05);
 }
 
-.section-title{
+.section-title {
     font-size: 3rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -113,7 +113,7 @@ header {
 /* ======================================== 
             banner style start 
     ================================== */
-.hero-bg{
+.hero-bg {
     padding: 101px 0;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ header {
     background-size: cover;
 }
 
-.banner-img{
+.banner-img {
     width: 100%;
     padding: 106px 0;
     background-image: url(../images/hero-circle.png);
@@ -132,15 +132,15 @@ header {
     align-items: center;
 }
 
-.banner-img img{
+.banner-img img {
     width: 100%;
 }
 
-.bage-posi{
+.bage-posi {
     position: relative;
 }
 
-.bage{
+.bage {
     position: absolute;
     top: -80px;
     right: -80px;
@@ -151,35 +151,75 @@ header {
     color: var(--bg-color);
     background: var(--secondary-color);
     border-radius: 50px;
-    
+
 }
 
-.banner-contain{
+.banner-contain {
     text-align: center;
     color: var(--primary-color);
 }
 
-.banner-title{
+.banner-title {
     padding-top: 40px;
     font-size: 3.7rem;
     font-weight: 900;
 }
 
-.banner-detail{
+.banner-detail {
     padding: 8px 0 24px;
     font-size: 1rem;
     font-weight: 400;
 }
+
 /* ======================================= 
         banner style end
      ================================= */
 /* ======================================== 
         About the Potcast start 
     ================================== */
-.potcast-detail{
+.potcast-section {
+    padding-top: 50px;
+}
+
+.potcast-detail, .join {
+    max-width: 804px;
+    margin: 0 auto;
+    padding-top: 16px;
+    font-size: 1rem;
+    font-weight: normal;
     text-align: center;
     color: var(--primary-color);
+    line-height: 25px;
 }
+
+.join{
+    padding-top: 50px;
+    padding-bottom: 80px;    
+}
+
+.podcast-cards{
+    padding: 80px 0 120px;
+    border-top: 1px solid var(--primary-color);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+
+.podcast-card h3{
+    padding-bottom: 16px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.podcast-card p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--primary-color);
+    text-align: center;
+}
+
 /* ======================================= 
         About the Potcast end
      ================================= */
